@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "eslint.execArgv": null,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "eslint.validate": [
     "typescript"
@@ -11,5 +11,7 @@
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.run": "onType",
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "jest.jestCommandLine": "yarn test",
+  "jest.rootPath": "src"
 }
