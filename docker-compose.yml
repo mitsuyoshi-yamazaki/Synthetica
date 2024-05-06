@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  mmo:
+    container_name: mmo
+    build: ./
+    ports:
+      - "${PORT}:${SERVER_PORT}"
+    tty: true
+    volumes:
+      - ./synthetica:/usr/src/synthetica
+    environment:
+      PORT: "${SERVER_PORT}"
