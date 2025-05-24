@@ -1,6 +1,6 @@
-FROM rust:1.67
+FROM node:24
 
 WORKDIR /usr/src/synthetica
 COPY ./synthetica .
 
-RUN cargo install --path .
+# RUN yarn install
