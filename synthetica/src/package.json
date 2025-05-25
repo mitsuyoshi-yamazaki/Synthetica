@@ -1,8 +1,0 @@
-{
-  "name": "synthetica",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/mitsuyoshi-yamazaki/Synthetica",
-  "author": "Mitsuyoshi Yamazaki",
-  "license": "MIT"
-}
